@@ -5,6 +5,7 @@
 <style>
 :root {
   --square-size: 20vh;
+  --small-square-size: 20px;
   --square-gap: 5px;
   --week-width: calc(var(--square-size) + var(--square-gap));
   --dark-grey: #121212;
@@ -43,6 +44,14 @@ body{
   color: var(--smoky-white);
   text-align: center;
 }
+.legend{
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--smoky-white);
+}
 </style>
 </head>
 <body>
@@ -60,6 +69,12 @@ body{
 <div class="wet"><h1>November</h1></div>
 <div class="wet"><h1>December</h1></div>
 </main>
+
+<div class="legend"> 
 <h1 class="city"> Tacloban City </h1>
+<h2>Temperature</h2>
+<h2>Pressure</h2>
+<h2>Rainfall</h2>
+</div>
 </body>
 </html>
