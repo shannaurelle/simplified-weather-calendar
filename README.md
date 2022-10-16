@@ -11,5 +11,6 @@ intensity of the factor.
 ## Roadmap 
 For this calendar we aim to start with a flat design, then slowly add more interactive and intuitive features.
 1. Add an animation of colors swirling the rectangle when hovered
-2. Add specific daily rectangles for each month
-3. Add a light mode for this design and let user decide when to switch
+2. Add button functionality for the button and its relevant animations
+3. Add specific daily rectangles for each month
+4. Add a light mode for this design and let user decide when to switch
