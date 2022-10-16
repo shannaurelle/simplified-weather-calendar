@@ -10,11 +10,12 @@
   --week-width: calc(var(--square-size) + var(--square-gap));
   --dark-grey: #121212;
   --smoky-white: #E9E4DA;
+  --topaz: #ffc87c;
+  --emerald-green: #50C878;
 }
 body{
   background: var(--dark-grey);
   font-family: sans-serif, Arial;
- 
 }
 .squares {
   display: grid;
@@ -52,6 +53,15 @@ body{
   align-items: center;
   color: var(--smoky-white);
 }
+.text-topaz{ 
+  color: rgba(255,200,124,0.87);
+}
+.text-emerald{
+  color: rgba(80,200,120,0.87);
+}
+.text-turquoise{
+  color: rgba(48,213,200,0.87);
+}
 </style>
 </head>
 <body>
@@ -72,9 +82,9 @@ body{
 
 <div class="legend"> 
 <h1 class="city"> Tacloban City </h1>
-<h2>Temperature</h2>
-<h2>Pressure</h2>
-<h2>Rainfall</h2>
+<h2 class="text-topaz">Temperature</h2>
+<h2 class="text-emerald">Pressure</h2>
+<h2 class="text-turquoise">Rainfall</h2>
 </div>
 </body>
 </html>
