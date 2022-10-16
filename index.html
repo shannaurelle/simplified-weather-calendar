@@ -8,22 +8,32 @@
   --square-gap: 5px;
   --week-width: calc(var(--square-size) + var(--square-gap));
 }
+.squares {
+  display: grid;
+  grid-gap: var(--square-gap);
+  grid-template-rows: repeat(3, var(--square-size));
+  grid-auto-flow: column;
+  grid-auto-columns: var(--square-size);
+}
+.squares div{
+  background-color: #121212;
+}
 </style>
 </head>
 <body>
-<main>
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
-<div class="squares">
+<main class="squares">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
 </main>
 </body>
 </html>
