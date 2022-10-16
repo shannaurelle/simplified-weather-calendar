@@ -7,7 +7,7 @@ which are detrimental to the task at hand. For this example, this is geared towa
 Months which are lightly faded or faded are best reserved for continuation of growth and harvest. Meanwhile, the percentage of the colors present in a rectangle gradient color is the weighted
 intensity of the factor. 
 
-This is made using HTML and CSS. 
+This is made using HTML and CSS. For any CSS compatibility issues, feel free to send me an [issue](https://github.com/shannaurelle/simplified-weather-calendar/issues). I will be happy and willing to address them.
 ## Getting Started
 
 ## Roadmap 
