@@ -6,3 +6,10 @@ For this calendar, it is aimed to be responsive following a mobile first design.
 which are detrimental to the task at hand. For this example, this is geared towards an agricultural use case, so the brightest months are the best months to sow new seedlings and grow them.
 Months which are lightly faded or faded are best reserved for continuation of growth and harvest. Meanwhile, the percentage of the colors present in a rectangle gradient color is the weighted
 intensity of the factor. 
+## Getting Started
+
+## Roadmap 
+For this calendar we aim to start with a flat design, then slowly add more interactive and intuitive features.
+1. Add an animation of colors swirling the rectangle when hovered
+2. Add specific daily rectangles for each month
+3. Add a light mode for this design and let user decide when to switch
