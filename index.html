@@ -4,9 +4,10 @@
 <title> Weather Calendar: Simplified </title>
 <style>
 :root {
-  --square-size: 10vh;
+  --square-size: 20vh;
   --square-gap: 5px;
   --week-width: calc(var(--square-size) + var(--square-gap));
+  --dark-grey: #121212;
 }
 .squares {
   display: grid;
@@ -17,7 +18,8 @@
   grid-auto-columns: var(--square-size);
 }
 .squares div{
-  background-color: #121212;
+  background-color: var(--dark-grey);
+  opacity: 33%;
 }
 </style>
 </head>
