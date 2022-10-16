@@ -6,6 +6,8 @@ For this calendar, it is aimed to be responsive following a mobile first design.
 which are detrimental to the task at hand. For this example, this is geared towards an agricultural use case, so the brightest months are the best months to sow new seedlings and grow them.
 Months which are lightly faded or faded are best reserved for continuation of growth and harvest. Meanwhile, the percentage of the colors present in a rectangle gradient color is the weighted
 intensity of the factor. 
+
+This is made using HTML and CSS. 
 ## Getting Started
 
 ## Roadmap 
