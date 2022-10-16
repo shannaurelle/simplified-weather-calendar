@@ -10,6 +10,11 @@
   --dark-grey: #121212;
   --smoky-white: #E9E4DA;
 }
+body{
+  background: var(--dark-grey);
+  font-family: sans-serif, Arial;
+ 
+}
 .squares {
   display: grid;
   grid-gap: var(--square-gap);
@@ -19,27 +24,42 @@
   grid-auto-columns: var(--square-size);
 }
 .squares div{
-  background-color: var(--dark-grey);
+  color: var(--dark-gray);
+  text-align: center;
+}
+.wet{
+  background: rgb(255,200,124);
+  background: linear-gradient(90deg, rgba(255,200,124,0.87) 0%, rgba(80,200,120,0.87) 50%, rgba(48,213,200,0.87) 100%);
+}
+.fine{
+  background: rgb(255,200,124);
+  background: linear-gradient(90deg, rgba(255,200,124,0.6) 0%, rgba(80,200,120,0.6) 50%, rgba(48,213,200,0.6) 100%);
+}
+.dry{
+  background: rgb(255,200,124);
+  background: linear-gradient(90deg, rgba(255,200,124,0.3) 0%, rgba(80,200,120,0.3) 50%, rgba(48,213,200,0.3) 100%);
+}
+.city{
   color: var(--smoky-white);
-  opacity: 33%;
   text-align: center;
 }
 </style>
 </head>
 <body>
 <main class="squares">
-<div><h1>January</h1></div>
-<div><h1>February</h1></div>
-<div><h1>March</h1></div>
-<div><h1>April</h1></div>
-<div><h1>May</h1></div>
-<div><h1>June</h1></div>
-<div><h1>July</h1></div>
-<div><h1>August</h1></div>
-<div><h1>September</h1></div>
-<div><h1>October</h1></div>
-<div><h1>November</h1></div>
-<div><h1>December</h1></div>
+<div class="wet"><h1>January</h1></div>
+<div class="wet"><h1>February</h1></div>
+<div class="fine"><h1>March</h1></div>
+<div class="fine"><h1>April</h1></div>
+<div class="dry"><h1>May</h1></div>
+<div class="dry"><h1>June</h1></div>
+<div class="dry"><h1>July</h1></div>
+<div class="dry"><h1>August</h1></div>
+<div class="fine"><h1>September</h1></div>
+<div class="fine"><h1>October</h1></div>
+<div class="wet"><h1>November</h1></div>
+<div class="wet"><h1>December</h1></div>
 </main>
+<h1 class="city"> Tacloban City </h1>
 </body>
 </html>
