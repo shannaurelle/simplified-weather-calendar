@@ -10,6 +10,9 @@ intensity of the factor.
 This is made using HTML and CSS. For any CSS compatibility issues, feel free to send me an [issue](https://github.com/shannaurelle/simplified-weather-calendar/issues). I will be happy and willing to address them.
 ## Getting Started
 
+Downloading this is quite simple. Click Code, and download zip to immediately acquire the repository.
+
+
 ## Roadmap 
 For this calendar we aim to start with a flat design, then slowly add more interactive and intuitive features.
 1. Add an animation of colors swirling the rectangle when hovered
