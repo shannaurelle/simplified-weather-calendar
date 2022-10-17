@@ -20,3 +20,4 @@ For this calendar we aim to start with a flat design, then slowly add more inter
 2. Add button functionality for the button and its relevant animations
 3. Add specific daily rectangles for each month
 4. Add a light mode for this design and let user decide when to switch
+5. Separate the CSS code to an external one
