@@ -12,6 +12,7 @@ This is made using HTML and CSS. For any CSS compatibility issues, feel free to 
 
 Downloading this is quite simple. Click Code, and download zip to immediately acquire the repository.
 
+For contributing to the repository, fork this repository first and do your edits there. Then if you're done, send me a pull request.
 
 ## Roadmap 
 For this calendar we aim to start with a flat design, then slowly add more interactive and intuitive features.
